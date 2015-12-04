@@ -35,9 +35,7 @@
   <platform name="ios" />
   <platform name="android" />
   <platform name="winphone" />
-
-  <access origin="http://demo.cmsx1.nl" subdomains="true"/>
   
-  
-
+  <!--<access origin="http://demo.cmsx1.nl" subdomains="true"/>-->
+  <access origin="http://demo.cmsx1.nl" subdomains="true" browserOnly="false" /> 
 </widget>
