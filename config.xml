@@ -17,6 +17,12 @@
     Geoff Barlow
   </author>
 
+  <platform name="ios" />
+  <platform name="android" />
+  <platform name="winphone" />
+
   <access origin="http://demo.cmsx1.nl" subdomains="true"/>
+  
+  
 
 </widget>
