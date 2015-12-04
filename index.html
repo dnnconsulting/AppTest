@@ -5,12 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>App Test</title>
-
+      <script src="phonegap.js"></script>
+      <script src="cordova.js"></script>
   </head>
 
   <body>
 
-
+      <script>
+          document.addEventListener("deviceready", onDeviceReady, false);
+          function onDeviceReady() {
+              // Now safe to use the Codova API
+              window.location = "http://demo.cmsx1.nl";
+          }
+      </script>
 
 
   
